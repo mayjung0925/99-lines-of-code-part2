@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(168, 214, 199);
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 3em;
+}
+ /* .friend{
+    background-color: burlywood;
+    border: 3px solid black;
+    width: 20em;
+    margin : 0 auto;
+    text-align: center; 
+ }  */
+
+.friend > h3{
+    text-transform: uppercase;
+
+}
