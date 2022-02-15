@@ -1,6 +1,3 @@
-// 1.Why should I have document.addEventListener (DOMContentLoaded, ) when I already have script element in the head section?
-
-// document.addEventListener('DOMContentLoaded', function () {
 
     const friends = [
         'Sam',
@@ -12,7 +9,7 @@
 
     const button = document.querySelector('.button');
 
-//2.element. addEventListener-> Why can't I just add button element in front of addEventListener without declaring button variable?  I need to declare the variable  first before targetting it in front of addEventListener .
+
     button.addEventListener('click', function () {
         for (let i = 0; i < friends.length; i++) {
 
